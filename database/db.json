@@ -1,0 +1,100 @@
+{
+  "produtos": [
+    {
+      "nome": "Stormtrooper e Sith Trooper",
+      "valor": 90.99,
+      "imagem": "https://tse2.mm.bing.net/th?id=OIP.dWNdWl42wdedGz2aqtbXGgAAAA&pid=Api&P=0&h=180",
+      "alt": "foto Kit 2 copos - star wars  uci Stormtrooper e sith trooper",
+      "quantidade": 9,
+      "id": "1"
+    },
+    {
+      "nome": "Deadpool",
+      "valor": 93.6,
+      "imagem": "http://marveltoynews.com/wp-content/uploads/2016/02/Hot-Toys-Cosbaby-Deadpool-Movie-Figure-e1454610567494.jpg",
+      "alt": "foto hot toys deadpool cosbaby viny",
+      "quantidade": 12,
+      "id": "2"
+    },
+    {
+      "nome": "LEGO - Stormtrooper Minifigure",
+      "valor": 85.56,
+      "imagem": "https://s-media-cache-ak0.pinimg.com/originals/4f/9c/50/4f9c50ffd307fc9ff4c0f832d06577ea.jpg",
+      "alt": "foto LEGO - Star Wars: Rebels – Stormtrooper Minifigure",
+      "quantidade": 23,
+      "id": "3"
+    },
+    {
+      "nome": "Homem de Ferro",
+      "valor": 82.66,
+      "imagem": "https://img.elo7.com.br/product/zoom/3272990/caneca-homen-de-ferro-01-caneca-criativa.jpg",
+      "alt": "foto da Caneca home de ferro",
+      "quantidade": 17,
+      "id": "4"
+    },
+    {
+      "nome": "Toy Capitão América",
+      "valor": 85.70,
+      "imagem": "https://img.elo7.com.br/product/zoom/267549E/toy-capitao-america-toycolecionavel.jpg",
+      "alt": "Toy Capitão América",
+      "quantidade": 21,
+      "id": "5"
+    },
+    {
+      "nome": "Jack Sparrow Toys",
+      "valor": 97.30,
+      "imagem": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471606cv18d.jpg",
+      "alt": "Foto Jack Sparrow Toys",
+      "quantidade": 15,
+      "id": "6"
+    },
+    {
+      "nome": "Darth Vader",
+      "valor": 90.35,
+      "imagem": "https://m.media-amazon.com/images/I/810TW9rENNL._AC_SX522_.jpg",
+      "alt": "foto da luminária darth vader",
+      "quantidade": 5,
+      "id": "7"
+    },
+    {
+      "nome": "Baby Yoda The Child",
+      "valor": 137.99,
+      "imagem": "https://recreio.uol.com.br/images/original/2020/12/08/colecao-geek-25-bonecos-colecionaveis-que-vao-te-conquistar-1225848.jpg",
+      "alt": "Funko Pop Star Wars The Mandalorian Baby Yoda The Child",
+      "quantidade": 5,
+      "id": "8"
+    },
+    {
+      "nome": "Storm Shadow",
+      "valor": 146.99,
+      "imagem": "https://m.media-amazon.com/images/I/81QQm82pp9L._AC_SL1500_.jpg",
+      "alt": "Figura G.I. Joe Classified Series Arctic Mission Storm Shadow - E8856 - Hasbro",
+      "quantidade": 5,
+      "id": "9"
+    },
+    {
+      "nome": "Thor Gamerverse",
+      "valor": 146.99,
+      "imagem": "https://m.media-amazon.com/images/I/510BJlEMCiS._AC_SX679_.jpg",
+      "alt": "Hasbro Marvel Gamerverse - Thor",
+      "quantidade": 17,
+      "id": "10"
+    },
+    {
+      "nome": "Snake Eyes",
+      "valor": 146.99,
+      "imagem": "https://m.media-amazon.com/images/I/71kvfz+cJJL._AC_SX679_.jpg",
+      "alt": "Figura G.I. Joe Classified Series Snake Eyes - E8515 - Hasbro",
+      "quantidade": 13,
+      "id": "11"
+    },
+    {
+      "nome": "Homem Aranha",
+      "valor": 581.49,
+      "imagem": "https://static3.tcdn.com.br/img/img_prod/460977/estatua_homem_aranha_spider_man_the_game_homem_aranha_o_jogo_punk_suit_marvel_comics_cosbaby_hot_toy_116461_1_832e638dfbadf9326bdecce8e94691dd.jpg",
+      "alt": "foto spider man the game homem aranha o jogo punk suit marvel comics cosbaby hot toys",
+      "quantidade": 9,
+      "id": "12"       
+      }
+  ]
+}

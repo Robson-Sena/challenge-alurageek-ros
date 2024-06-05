@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+        
+    <title>Challenge Alura geek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__img" src="./assets/image-coracoes.png" alt="imagem da logo">
+        <h1 class="cabecalho__titulo">Alura<span>Geek</span></h1>
+    </header>
+
+    <main>
+        <section class="meus__produtos">
+            <h1 class="titulo__produtos">MEUS PRODUTOS</h1>
+            <ul class="produtos__container" alt="produtos alurageek" data-lista>
+                <!-- <li class="cards__item">
+                    <div class="card">
+                    <img class="card__imagem" src="assets/Star Wars  Uci Storm Trooper e Sith Trooper.jpg" alt="imagem Stormtrooper e SithTrooper">
+                    <p class="img__nome">Stormtrooper e SithTrooper</p>
+                        <div class="valor__e__icone">
+                            <p class="valor">$ 60,00</p>
+                        <button id="${id}" data-excluir><img class="icone__excluir" src="./assets/icone-excluir.png" alt="Botão excluir"> <a></a></button> 
+                        </div>                   -->    
+            </ul>
+         </section>
+
+        <section class="adicionar-produto" data-formulario>
+            <h1 class="formulario__titulo">ADICIONAR PRODUTO:</h1>
+            <form class="formulario"> 
+                <label for="img__nome"></label>
+                <input class="formulario__campos" name="name" id="nome" type="text" placeholder="nome..." minlength="3" required data-nome>
+                <label for="valor"></label>
+                <input class="formulario__campos" name="valor" id="valor" type="number" step="0,01" pattern="\d+(\.\d{2})?" placeholder="valor..." required data-valor>
+                <label for="imagem"></label>
+                <input class="formulario__campos" name="imagem" id="imagem" type="url" placeholder="url-imagem..." required data-imagem>
+                <span class="mensagem__erro"></span>
+
+                <div class="formulario__botoes">
+                    <input class="botao__guardar" type="submit" id="guardar" value="Guardar"  data-botao-guardar>
+                    <button class="botao__limpar" type="reset" id="limpar"  data-botao-limpar>Limpar</button>
+                </div>
+            </form>
+        </section> 
+    </main>
+    
+    <footer class="rodape">
+        <div class="rodape__container">
+            <img class="rodape__img" src="./assets/image-coracoes.png" alt="imagem do rodapé">
+            <h1 class="rodape__titulo">Alura<span>Geek</span></h1>
+            <h3 class="rodape__name">Desenvolvido por Robson Sena</h3>
+            <h4 class="rodape__desafio">Challenge Alura-Geek 2024</h4>
+        </div>
+        
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+    <script src="./js/buscarProduto.js" type="module"></script>
+    <script src="./js/excluirProduto.js" type="module"></script>
+    <script src="server.js" type="module"></script>
+    </footer>
+</body>
+</html>
