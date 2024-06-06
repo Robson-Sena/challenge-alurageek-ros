@@ -1,5 +1,5 @@
 async function listaProdutos() {
-    const conexao = await fetch("https://json-server-gamma-seven.vercel.app");
+    const conexao = await fetch("https://json-server-gamma-seven.vercel.app/produtos");
     const conexaoConvertida = await conexao.json();
     
     return conexaoConvertida;
@@ -8,7 +8,7 @@ async function listaProdutos() {
 // CRIAR NOS PRODUTOS
 
 async function criaProduto(nome, valor, imagem, id) {
-    const conexao = await fetch("https://json-server-gamma-seven.vercel.app",  {
+    const conexao = await fetch("https://json-server-gamma-seven.vercel.app/produtos",  {
         method: "POST",
         headers: {
             "content-type": "application/json"
